@@ -1,6 +1,29 @@
 import React from "react";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("#home");
+
+  const navLinks = [
+    {
+      href: "#home",
+      label: "Home",
+    },
+    {
+      href: "#about",
+      label: "About",
+    },
+    {
+      href: "#services",
+      label: "Our Services",
+    },
+    {
+      href: "#testimonials",
+      label: "Testimonuials",
+    },
+  ];
+
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
       <div className="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 md:h-20 h-16">
@@ -11,7 +34,21 @@ const Navbar = () => {
         </div>
 
         {/* desktop navitems  */}
-
+        <div className="hidden md:flex items-center gap-10">
+          {navLinks.map((link, index) => (
+            <a
+              key={index}
+              className={`text-sm font-medium relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-blue-600 after:transition-all ${
+                activeLink === link.href
+                  ? "text-blue-600 after:w-full"
+                  : "text-gray-600 after:text-gray-900"
+              }`}
+              href={link.href}
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
         {/* get in touch btn */}
 
         {/* mobile menu */}
