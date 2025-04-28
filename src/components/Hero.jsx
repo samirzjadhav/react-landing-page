@@ -1,4 +1,5 @@
 import React from "react";
+import heroImage from "../assets/hero-image.png"; // Import your image here
 
 const Hero = () => {
   return (
@@ -42,7 +43,16 @@ const Hero = () => {
         </div>
       </div>
       {/* Right col */}
-      <div className="w-full md:w-1/2 ">right</div>
+
+      <div className="w-full md:w-1/2 mt-16 md:mt-0 pl-0 md:pl-12">
+        <div className="relative">
+          <img
+            src={heroImage}
+            className="rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
   );
 };
