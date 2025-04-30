@@ -17,7 +17,10 @@ const ProposeSection = () => {
   ];
 
   return (
-    <section className="w-full bg-gray-50 py-16 px-4 sm:px-6 md:px-8">
+    <section
+      className="w-full bg-gray-50 py-16 px-4 sm:px-6 md:px-8"
+      id="about"
+    >
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
           <div className="">
@@ -31,7 +34,7 @@ const ProposeSection = () => {
           {/* bullet points */}
           <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 justify-between gap-8">
             {features.map((feature, index) => (
-              <div className="flex  space-x-4">
+              <div key={index} className="flex  space-x-4">
                 <div className="h-12 w-12 flex items-center justify-start runded-lg">
                   {feature.icon}
                 </div>
