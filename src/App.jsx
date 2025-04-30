@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CompanyLogos from "./components/CompanyLogos";
+import ProposeSection from "./components/ProposeSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Hero />
         <CompanyLogos />
+        <ProposeSection />
       </div>
     </main>
   );

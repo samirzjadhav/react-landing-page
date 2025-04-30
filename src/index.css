@@ -4,6 +4,11 @@
 }
 
 /* Now your normal CSS below */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
