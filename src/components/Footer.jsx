@@ -136,7 +136,7 @@ const Footer = () => {
               variants={fadeIn("right", 1.0)}
               className="text-gray-600 text-sm"
             >
-              Copyright © {new Date().getFullYear()} codetutorbd.com
+              Copyright © {new Date().getFullYear()} Samir jadhav ❤️
             </motion.p>
           </motion.div>
         </motion.div>
