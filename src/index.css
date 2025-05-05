@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @layer {
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 }
 
 /* Now your normal CSS below */
@@ -10,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Sora', sans-serif;
 }
 
 /* other styles... */
