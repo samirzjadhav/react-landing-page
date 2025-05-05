@@ -1,12 +1,76 @@
-# React + Vite
+## 🚀 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with **React.js**, **Tailwind CSS**, and **Framer Motion**, featuring smooth animations, interactive sections, and a clean UI/UX design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+* ✅ Modern and clean design
+* ✅ Fully responsive layout
+* ✅ Smooth animations with Framer Motion
+* ✅ Interactive components
+* ✅ Testimonials carousel
+* ✅ Newsletter subscription form
+* ✅ Company logo showcase
+* ✅ Pricing calculator
+* ✅ Services section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+* **React.js**
+* **Tailwind CSS**
+* **Framer Motion**
+* **Swiper.js**
+* **React Icons**
+
+---
+
+## 📦 Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm start
+   ```
+
+4. **Visit in your browser**
+   [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌍 Live Demo
+
+🔗 [Live Website](https://your-live-demo-link.com)
+🔗 [YouTube Demo](https://youtu.be/B91wc5dCEBA)
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [**Samir Z Jadhav**](https://samirj.vercel.app)
+
+---
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+
+Let me know if you'd like me to create a `README.md` file for download or edit anything specific!
+
