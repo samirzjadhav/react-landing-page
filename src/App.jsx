@@ -10,6 +10,7 @@ import PricingSection from "./components/PricingSection";
 import ServicesSection from "./components/ServicesSection";
 import TestimonialSection from "./components/TestimonialSection";
 import NewsletterSection from "./components/NewsletterSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <ServicesSection />
         <TestimonialSection />
         <NewsletterSection />
+        <Footer />
       </div>
     </main>
   );
